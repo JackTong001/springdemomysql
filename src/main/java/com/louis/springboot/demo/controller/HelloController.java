@@ -10,7 +10,7 @@ public class HelloController {
     public String hello() {
         return "Hello Spring Boot!";
     }
-    @GetMapping("/hellodev")
+    @GetMapping("/helloDev")
     public String helloDev(){
         return "Hello DEV";
     }
