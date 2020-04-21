@@ -12,7 +12,7 @@ public class HelloController {
     }
     @GetMapping("/helloDev")
     public String helloDev(){
-       System.out.println("123devchange");
+       System.out.println("123devchangemasterchange");
 
         return "Hello DEV";
     }
