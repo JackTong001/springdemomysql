@@ -10,5 +10,8 @@ public class HelloController {
     public String hello() {
         return "Hello Spring Boot!";
     }
-    
+    @GetMapping("/hellodev")
+    public String helloDev(){
+        return "Hello DEV";
+    }
 }
